@@ -2,13 +2,13 @@
   "name": "media-player",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "start": "live-server"
   },
   "keywords": [],
   "author": "Juan Deossa",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2"
   }
