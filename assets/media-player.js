@@ -12,6 +12,14 @@ MediaPlayer.prototype.togglePlay = function () {
         video.pause()
     }
 }
+MediaPlayer.prototype.toggleMute = function () {
+    const video = this.media
+    if (video.muted) {
+        video.muted=false
+    }else{
+        video.muted=true
+    }
+}
 MediaPlayer.prototype._initPlugins = function () {
     this.plugins.forEach(plugin => {
         plugin.run(this)
